@@ -74,7 +74,7 @@ a.feed {{ display: inline-block; margin-bottom: 1rem; }}
 <body>
 <h1>{escape(FEED_TITLE)}</h1>
 <p>{escape(FEED_DESC)}</p>
-<p class="feed"><a href="/feed.xml">Subscribe: /feed.xml</a></p>
+<p class="feed"><a href="/feed.xml">Subscribe: /feed.xml</a> &nbsp;|&nbsp; <a href="/digest.html">Weekly digest</a></p>
 <table>
 <tr><th>Date</th><th>Company</th><th>Announcement</th></tr>
 {rows}
