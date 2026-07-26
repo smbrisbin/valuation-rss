@@ -5,7 +5,8 @@
     "title": "Anthropic raises $65B Series H at $965B post-money valuation",
     "date": "2026-05-28T00:00:00Z",
     "link": "https://www.anthropic.com/news/series-h",
-    "summary": "Anthropic closed a $65 billion Series H round at a $965 billion post-money valuation, co-led by Altimeter Capital, Dragoneer, Greenoaks, Sequoia Capital, Capital Group, Coatue, and D1 Capital Partners, with participation from Baillie Gifford, Blackstone, Brookfield, D.E. Shaw Ventures, DST Global, Fidelity, and strategic partners Samsung, SK Hynix, and Micron."
+    "summary": "Anthropic closed a $65 billion Series H round at a $965 billion post-money valuation, co-led by Altimeter Capital, Dragoneer, Greenoaks, Sequoia Capital, Capital Group, Coatue, and D1 Capital Partners, with participation from Baillie Gifford, Blackstone, Brookfield, D.E. Shaw Ventures, DST Global, Fidelity, and strategic partners Samsung, SK Hynix, and Micron.",
+    "type": "funding"
   },
   {
     "guid": "databricks-strategic-round-2026-07-16",
@@ -13,7 +14,8 @@
     "title": "Databricks raising strategic round at $188B valuation",
     "date": "2026-07-16T00:00:00Z",
     "link": "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-strategic-round-funding-188-billion-valuation",
-    "summary": "Databricks signed a term sheet for a new strategic funding round at a $188 billion valuation, led by existing investor Coatue, expected to close later in the summer. The company reported a $5.4 billion annualized revenue run-rate, up 65% year over year."
+    "summary": "Databricks signed a term sheet for a new strategic funding round at a $188 billion valuation, led by existing investor Coatue, expected to close later in the summer. The company reported a $5.4 billion annualized revenue run-rate, up 65% year over year.",
+    "type": "funding"
   },
   {
     "guid": "databricks-series-l-2026-02",
@@ -21,7 +23,8 @@
     "title": "Databricks closes $5B Series L at $134B valuation",
     "date": "2026-02-01T00:00:00Z",
     "link": "https://www.databricks.com/company/newsroom",
-    "summary": "Databricks closed a $5 billion Series L round at a $134 billion valuation, ahead of the $188 billion strategic round announced in July 2026."
+    "summary": "Databricks closed a $5 billion Series L round at a $134 billion valuation, ahead of the $188 billion strategic round announced in July 2026.",
+    "type": "funding"
   },
   {
     "guid": "openai-122b-round-2026-03-31",
@@ -29,7 +32,8 @@
     "title": "OpenAI closes $122B funding round at $852B post-money valuation",
     "date": "2026-03-31T00:00:00Z",
     "link": "https://openai.com/index/accelerating-the-next-phase-ai/",
-    "summary": "OpenAI closed a record-breaking $122 billion funding round at an $852 billion post-money valuation, anchored by Amazon ($50B), NVIDIA ($30B), and SoftBank ($30B), with continued participation from Microsoft. The round grew from $110B/$730B pre-money announced February 27, 2026."
+    "summary": "OpenAI closed a record-breaking $122 billion funding round at an $852 billion post-money valuation, anchored by Amazon ($50B), NVIDIA ($30B), and SoftBank ($30B), with continued participation from Microsoft. The round grew from $110B/$730B pre-money announced February 27, 2026.",
+    "type": "funding"
   },
   {
     "guid": "openai-40b-round-2025-03-31",
@@ -37,7 +41,8 @@
     "title": "OpenAI closes $40B SoftBank-led round at $300B valuation",
     "date": "2025-03-31T00:00:00Z",
     "link": "https://openai.com/index/march-funding-updates/",
-    "summary": "OpenAI closed a $40 billion funding round led by SoftBank at a $300 billion post-money valuation, the largest private tech fundraise on record at the time. Microsoft, Coatue, Altimeter, and Thrive also participated."
+    "summary": "OpenAI closed a $40 billion funding round led by SoftBank at a $300 billion post-money valuation, the largest private tech fundraise on record at the time. Microsoft, Coatue, Altimeter, and Thrive also participated.",
+    "type": "funding"
   },
   {
     "guid": "anduril-series-h-2026-05-13",
@@ -45,7 +50,8 @@
     "title": "Anduril raises $5B Series H at $61B valuation",
     "date": "2026-05-13T00:00:00Z",
     "link": "https://www.anduril.com/news/anduril-announces-usd5b-series-h-raise",
-    "summary": "Anduril raised $5 billion in a Series H round co-led by Thrive Capital and Andreessen Horowitz, roughly doubling its valuation to $61 billion. CEO Brian Schimpf reported 2025 revenue of $2.2 billion, more than double the prior year."
+    "summary": "Anduril raised $5 billion in a Series H round co-led by Thrive Capital and Andreessen Horowitz, roughly doubling its valuation to $61 billion. CEO Brian Schimpf reported 2025 revenue of $2.2 billion, more than double the prior year.",
+    "type": "funding"
   },
   {
     "guid": "anduril-series-g-2025-06-05",
@@ -53,7 +59,8 @@
     "title": "Anduril raises $2.5B Series G at $30.5B valuation",
     "date": "2025-06-05T00:00:00Z",
     "link": "https://techcrunch.com/2025/06/05/anduril-raises-2-5b-at-30-5b-valuation-led-by-founders-fund/",
-    "summary": "Anduril raised $2.5 billion in a Series G round led by Founders Fund with a $1 billion investment, doubling its valuation to $30.5 billion. The round was over 8x oversubscribed. No first-party Anduril newsroom post was found for this round; sourced from press coverage."
+    "summary": "Anduril raised $2.5 billion in a Series G round led by Founders Fund with a $1 billion investment, doubling its valuation to $30.5 billion. The round was over 8x oversubscribed. No first-party Anduril newsroom post was found for this round; sourced from press coverage.",
+    "type": "funding"
   },
   {
     "guid": "ramp-750m-2026-06-04",
@@ -61,6 +68,7 @@
     "title": "Ramp raises $750M at $44B valuation",
     "date": "2026-06-04T00:00:00Z",
     "link": "https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html",
-    "summary": "Ramp raised $750 million led by ICONIQ, GIC, and Ontario Teachers' Pension Plan, valuing the company at $44 billion — nearly triple its $32 billion valuation from November 2025. New investors included Goldman Sachs Alternatives, D.E. Shaw & Co., and Morgan Stanley Investment Management."
+    "summary": "Ramp raised $750 million led by ICONIQ, GIC, and Ontario Teachers' Pension Plan, valuing the company at $44 billion \u2014 nearly triple its $32 billion valuation from November 2025. New investors included Goldman Sachs Alternatives, D.E. Shaw & Co., and Morgan Stanley Investment Management.",
+    "type": "funding"
   }
 ]

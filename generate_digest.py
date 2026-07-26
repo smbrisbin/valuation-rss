@@ -8,7 +8,8 @@ ROOT = Path(__file__).parent
 DIGESTS_PATH = ROOT / "data" / "digests.json"
 DIGEST_HTML_PATH = ROOT / "docs" / "digest.html"
 
-TITLE = "Weekly Digest — Company Valuation Announcements"
+TITLE = "Weekly Digest — Company Valuation & IPO Announcements"
+TYPE_LABELS = {"funding": "Funding", "ipo": "IPO Timeline"}
 
 
 def load_digests():
@@ -26,7 +27,8 @@ def build_html(digests):
             events_html = ""
             if d.get("notable_events"):
                 rows = "\n".join(
-                    f"<li><strong>{escape(e['company'])}</strong>: "
+                    f"<li><strong>{escape(e['company'])}</strong> "
+                    f"[{escape(TYPE_LABELS.get(e.get('type', 'funding'), 'Funding'))}]: "
                     f"<a href=\"{escape(e['link'])}\">{escape(e['title'])}</a> ({escape(e['date'][:10])})</li>"
                     for e in d["notable_events"]
                 )

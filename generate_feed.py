@@ -11,10 +11,12 @@ EVENTS_PATH = ROOT / "data" / "events.json"
 FEED_PATH = ROOT / "docs" / "feed.xml"
 INDEX_PATH = ROOT / "docs" / "index.html"
 
-FEED_TITLE = "Company Valuation Announcements"
-FEED_DESC = "Funding round and valuation announcements for Anthropic, Databricks, OpenAI, Anduril, and Ramp."
+FEED_TITLE = "Company Valuation & IPO Announcements"
+FEED_DESC = "Funding round, valuation, and IPO timeline announcements for Anthropic, Databricks, OpenAI, Anduril, and Ramp."
 FEED_LINK = "https://smbrisbin.github.io/valuation-rss/"
 SELF_LINK = "https://smbrisbin.github.io/valuation-rss/feed.xml"
+
+TYPE_LABELS = {"funding": "Funding", "ipo": "IPO Timeline"}
 
 
 def load_events():
@@ -31,12 +33,14 @@ def rfc822(date_str):
 def build_rss(events):
     items = []
     for e in events:
+        type_label = TYPE_LABELS.get(e.get("type", "funding"), "Funding")
         items.append(f"""    <item>
       <title>{escape(e['title'])}</title>
       <link>{escape(e['link'])}</link>
       <guid isPermaLink="false">{escape(e['guid'])}</guid>
       <pubDate>{rfc822(e['date'])}</pubDate>
       <category>{escape(e['company'])}</category>
+      <category>{escape(type_label)}</category>
       <description>{escape(e['summary'])}</description>
     </item>""")
 
@@ -60,6 +64,7 @@ def build_rss(events):
 def build_index(events):
     rows = "\n".join(
         f"<tr><td>{escape(e['date'][:10])}</td><td>{escape(e['company'])}</td>"
+        f"<td>{escape(TYPE_LABELS.get(e.get('type', 'funding'), 'Funding'))}</td>"
         f"<td><a href=\"{escape(e['link'])}\">{escape(e['title'])}</a></td></tr>"
         for e in events
     )
@@ -76,7 +81,7 @@ a.feed {{ display: inline-block; margin-bottom: 1rem; }}
 <p>{escape(FEED_DESC)}</p>
 <p class="feed"><a href="/feed.xml">Subscribe: /feed.xml</a> &nbsp;|&nbsp; <a href="/digest.html">Weekly digest</a></p>
 <table>
-<tr><th>Date</th><th>Company</th><th>Announcement</th></tr>
+<tr><th>Date</th><th>Company</th><th>Type</th><th>Announcement</th></tr>
 {rows}
 </table>
 </body></html>
