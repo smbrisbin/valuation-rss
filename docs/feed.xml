@@ -5,8 +5,17 @@
     <link>https://smbrisbin.github.io/valuation-rss/</link>
     <description>Funding round, valuation, and IPO timeline announcements for Anthropic, Databricks, OpenAI, Anduril, and Ramp.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jul 2026 14:03:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 17:49:38 +0000</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://smbrisbin.github.io/valuation-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic investors reportedly target $2 trillion valuation for October IPO</title>
+      <link>https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/</link>
+      <guid isPermaLink="false">anthropic-ipo-2t-target-2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Anthropic</category>
+      <category>IPO Timeline</category>
+      <description>Anthropic backers are reportedly eyeing a $2 trillion-plus valuation for a planned October 2026 IPO, which would be the largest IPO ever, surpassing SpaceX's $1.77 trillion June 2026 debut. The figure comes from investors, not company executives — Anthropic has not publicly confirmed an October timeline, valuation target, or exchange. Backers cite projected annualized revenue of $100-120 billion by year-end, up from $47 billion in May; some observers (e.g. Fortune) have raised skepticism about whether the underlying business supports the target.</description>
+    </item>
     <item>
       <title>Databricks raising strategic round at $188B valuation</title>
       <link>https://www.databricks.com/company/newsroom/press-releases/databricks-raising-strategic-round-funding-188-billion-valuation</link>
